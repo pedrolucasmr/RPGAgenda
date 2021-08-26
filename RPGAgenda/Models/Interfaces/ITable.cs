@@ -16,5 +16,6 @@ namespace RPGAgenda.Models.Interfaces
         IMaster Master { get; set; }
         abstract IEvent LastEvent { get; set; }
         abstract IEvent NextEvent { get; set; }
+        abstract void AddEvent();
     }
 }
